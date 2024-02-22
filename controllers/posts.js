@@ -1,4 +1,4 @@
-//import { updatePost } from "../../client/src/api/index.js";
+//import { updatePost}  from "../../client/src/api/index.js";
 import RecipePost from "../models/recipesSchema.js";
 import mongoose from "mongoose";
 export const getPosts = async (req, res) => {
