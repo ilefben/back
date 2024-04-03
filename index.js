@@ -12,9 +12,13 @@ app.use(express.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 app.use("/posts", postRouter);
 app.use("/user", userRouter);
+<<<<<<< HEAD
 app.use((req, res) => {
   res.send("API is running");
 });
+=======
+
+>>>>>>> 38e99940389e1a7633df7573d8bef1516d2615a4
 //error-handling middleware function to catch errors
 app.use((error, req, res, next) => {
   console.error(error.stack);
